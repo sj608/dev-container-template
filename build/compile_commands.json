@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/builder/mnt/build",
+  "command": "/usr/bin/cc  -I/builder/mnt/include  -o CMakeFiles/Dummy.dir/src/dummy.c.o -c /builder/mnt/src/dummy.c",
+  "file": "/builder/mnt/src/dummy.c"
+}
+]

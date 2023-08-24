@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/dummy/dummy.h
+stdint.h
+-
+
+/builder/mnt/src/dummy.c
+dummy/dummy.h
+/builder/mnt/src/dummy/dummy.h
+
